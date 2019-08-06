@@ -77,6 +77,16 @@ a{
     display: flex;
     justify-content: space-around;
 }
+.email{
+    display: flex;
+    margin-top: 7px;
+    margin-left: 3px;
+}
+.call{
+    display: flex;
+    margin-top: 7px;
+    margin-left: 3px;
+}
 img{
     height: 30px;
     margin-top: 7px;

@@ -38,8 +38,10 @@ a{
     color: white;
 }
 .content2{
-    background: white;
+    background-image: url('../imgs/1.jpg');
     display: flex;
+    background-size: cover;
+    background-position: center; 
     align-items: center;
 }
 form{
@@ -51,13 +53,36 @@ form{
     justify-content: center;
     width: 100%;
 }
-form input{
+/* form input{
     display: block;
+    background: none;
     text-align: center;
     border: none;
     border-bottom: 3.5px #CFF0F5 solid;
     width: 100%;
     height: 50px;
+} */
+.content2 form{
+    text-align: center;
+    background: #CFF0F5;
+    height: 50%;
+    width: 30%;
+    font-weight: bold;
+    /* opacity: 0.5; */
+    border-radius: 30px;
+}
+.header span{
+    color: #33C0EF;
+}
+form input{
+    display: flex;
+    margin-top: 5px;
+    background: none;
+    border: none;
+	height: 30px;
+    border-bottom: 3.5px #33C0EF solid;
+    text-align: center;
+    width: 100%;
 }
 form h1{
     color: #33C0EF;

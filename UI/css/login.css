@@ -4,6 +4,7 @@ body{
     height: 100vh;
     padding: 0;
     margin: auto;
+    overflow: hidden;
 }
 .container{
     padding: 0 20px;
@@ -18,6 +19,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url('../imgs/1.jpg');
+    background-size: cover;
+    background-position: center;
 }
 .login_page h1{
     color: #33C0EF;
@@ -29,6 +33,12 @@ a{
 }
 form{
     text-align: center;
+    background: #CFF0F5;
+    height: 60%;
+    width: 30%;
+    font-weight: bold;
+    /* opacity: 0.5; */
+    border-radius: 30px;
 }
 .header span{
     color: #33C0EF;
@@ -36,9 +46,10 @@ form{
 form input{
     display: flex;
     margin-top: 5px;
+    background: none;
     border: none;
 	height: 30px;
-    border-bottom: 3.5px #CFF0F5 solid;
+    border-bottom: 3.5px #33C0EF solid;
     text-align: center;
     width: 100%;
 }
